@@ -1,7 +1,10 @@
 import React from "react";
 
-export default function Member(){
-    return(
-        <div style={{textAlign:'center'}}>Menber Page</div>
-    )
+export default class Member extends React.Component
+{
+    render(){
+        return(
+            <div style={{textAlign:'center'}}>Menber Page</div>
+        )
+    }
 }
